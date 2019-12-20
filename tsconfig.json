@@ -13,8 +13,9 @@
       "reflect-metadata"
     ],
     "moduleResolution": "node",
-    "target": "es6",
-    "noImplicitAny": true,
+    "target": "es2015",
+    "module": "es2015",
+    "noImplicitAny": false,
     "noUnusedLocals": true,
     "noImplicitReturns": true,
     "experimentalDecorators": true,
@@ -28,7 +29,9 @@
   "exclude": [
     "**/index.js",
     "node_modules",
+    "babel.config.js",
     "metro.config.js",
+    "jest.config.js",
     "ios",
     "android",
     "tools",
