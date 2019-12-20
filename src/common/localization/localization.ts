@@ -1,13 +1,13 @@
-import LocalizedStrings from 'react-native-localization';
+import LocalizedStrings from "react-native-localization";
 
 export const localization = new LocalizedStrings({
   en: {
-    phrase: 'Namaskar',
+    phrase: "Namaskar"
   },
   ru: {
-    phrase: 'Намаскар',
+    phrase: "Намаскар"
   },
   hi: {
-    phrase: 'नमस्कार',
-  },
+    phrase: "नमस्कार"
+  }
 });

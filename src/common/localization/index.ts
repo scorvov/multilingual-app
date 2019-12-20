@@ -1,3 +1,3 @@
-import {localization} from "./localization";
+import { localization } from "./localization";
 
-export {localization};
+export { localization };
